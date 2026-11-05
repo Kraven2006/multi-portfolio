@@ -134,15 +134,16 @@ export default function VideoEditingPage() {
 
         {/* Profile Photograph */}
 <div className="relative mx-auto w-full max-w-[560px]">
-  <div className="absolute -left-5 -top-5 h-full w-full border border-[#B7CDBD]/40" />
+  <div className="absolute -left-3 -top-3 sm:-left-5 sm:-top-5 h-full w-full border border-[#B7CDBD]/40" />
 
-  <div className="relative aspect-[4/5] overflow-hidden bg-[#202521]">
+  <div className="relative aspect-[4/5] w-full overflow-hidden bg-[#202521]">
     <img
-      src="images/profile_pic01.jpg"
+      src="/images/profile_pic01.jpg"
       alt="Portrait of Kraven"
       className="h-full w-full object-cover object-center"
     />
   </div>
+</div>
 
   <p className="mt-4 text-right text-[9px] tracking-[0.18em] text-[#77736F]">
     KRAVEN · VIDEO EDITOR
