@@ -132,7 +132,8 @@ export default function VideoEditingPage() {
           </a>
         </div>
 
-        {/* Profile Photograph */}
+      
+{/* Profile Photograph */}
 <div className="relative mx-auto w-full max-w-[560px]">
   <div className="absolute -left-3 -top-3 sm:-left-5 sm:-top-5 h-full w-full border border-[#B7CDBD]/40" />
 
@@ -143,12 +144,12 @@ export default function VideoEditingPage() {
       className="h-full w-full object-cover object-center"
     />
   </div>
-</div>
 
   <p className="mt-4 text-right text-[9px] tracking-[0.18em] text-[#77736F]">
     KRAVEN · VIDEO EDITOR
   </p>
 </div>
+
       </section>
 
       {/* Introduction */}
